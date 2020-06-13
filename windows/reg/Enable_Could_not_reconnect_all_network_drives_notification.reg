@@ -1,0 +1,10 @@
+Windows Registry Editor Version 5.00
+
+; Created by: Shawn Brink
+; Created on: Novmeber 29th 2019
+; Tutorial: https://www.tenforums.com/tutorials/145379-disable-could-not-reconnect-all-network-drives-notification-windows.html
+
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\NetworkProvider]
+"RestoreConnection"=-
+
